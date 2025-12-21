@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<net version="1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-100.00,-100.00,100.00,100.00" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id="dogu" from="1" to="0" priority="1">
+        <lane id="dogu_0" index="0" speed="13.89" length="100.00" shape="100.00,1.60 3.20,1.60"/>
+    </edge>
+    <edge id="bati" from="2" to="0" priority="1">
+        <lane id="bati_0" index="0" speed="13.89" length="100.00" shape="-100.00,-1.60 -3.20,-1.60"/>
+    </edge>
+    <edge id="kuzey" from="3" to="0" priority="1">
+        <lane id="kuzey_0" index="0" speed="13.89" length="100.00" shape="-1.60,100.00 -1.60,3.20"/>
+    </edge>
+    <edge id="guney" from="4" to="0" priority="1">
+        <lane id="guney_0" index="0" speed="13.89" length="100.00" shape="1.60,-100.00 1.60,-3.20"/>
+    </edge>
+
+    <edge id="dogu_cikis" from="0" to="1" priority="1">
+        <lane id="dogu_cikis_0" index="0" speed="13.89" length="100.00" shape="3.20,-1.60 100.00,-1.60"/>
+    </edge>
+    <edge id="bati_cikis" from="0" to="2" priority="1">
+        <lane id="bati_cikis_0" index="0" speed="13.89" length="100.00" shape="-3.20,1.60 -100.00,1.60"/>
+    </edge>
+    <edge id="kuzey_cikis" from="0" to="3" priority="1">
+        <lane id="kuzey_cikis_0" index="0" speed="13.89" length="100.00" shape="1.60,3.20 1.60,100.00"/>
+    </edge>
+    <edge id="guney_cikis" from="0" to="4" priority="1">
+        <lane id="guney_cikis_0" index="0" speed="13.89" length="100.00" shape="-1.60,-3.20 -1.60,-100.00"/>
+    </edge>
+
+    <junction id="0" type="traffic_light" x="0.00" y="0.00" incLanes="kuzey_0 dogu_0 guney_0 bati_0" intLanes="" shape="-3.20,3.20 3.20,3.20 3.20,-3.20 -3.20,-3.20">
+        <request index="0" response="0000" foes="0000" cont="0"/>
+        <request index="1" response="0000" foes="0000" cont="0"/>
+        <request index="2" response="0000" foes="0000" cont="0"/>
+        <request index="3" response="0000" foes="0000" cont="0"/>
+    </junction>
+
+    <junction id="1" type="priority" x="100.00" y="0.00" incLanes="dogu_cikis_0" intLanes="" shape="100.00,0.00 100.00,-3.20 100.00,0.00"/>
+    <junction id="2" type="priority" x="-100.00" y="0.00" incLanes="bati_cikis_0" intLanes="" shape="-100.00,0.00 -100.00,3.20 -100.00,0.00"/>
+    <junction id="3" type="priority" x="0.00" y="100.00" incLanes="kuzey_cikis_0" intLanes="" shape="0.00,100.00 -3.20,100.00 0.00,100.00"/>
+    <junction id="4" type="priority" x="0.00" y="-100.00" incLanes="guney_cikis_0" intLanes="" shape="0.00,-100.00 3.20,-100.00 0.00,-100.00"/>
+
+    <tlLogic id="0" type="static" programID="0" offset="0">
+        <phase duration="31" state="GrGr"/> 
+        <phase duration="4"  state="yryr"/>
+        <phase duration="31" state="rGrG"/>
+        <phase duration="4"  state="ryry"/>
+    </tlLogic>
+
+    <connection from="kuzey" to="guney_cikis" fromLane="0" toLane="0" tl="0" linkIndex="0" dir="s" state="O"/>
+    
+    <connection from="guney" to="kuzey_cikis" fromLane="0" toLane="0" tl="0" linkIndex="2" dir="s" state="O"/>
+    
+    <connection from="dogu" to="bati_cikis" fromLane="0" toLane="0" tl="0" linkIndex="1" dir="s" state="O"/>
+    
+    <connection from="bati" to="dogu_cikis" fromLane="0" toLane="0" tl="0" linkIndex="3" dir="s" state="O"/>
+
+</net>
