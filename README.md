@@ -45,7 +45,8 @@ flowchart TD
     Condition -- Evet --> Compare[Dikey vs Yatay Yoğunluk]
     Compare --> Action[En Yoğun Yönü Yeşil Yap]
     Action --> Loop[Simülasyon Bitene Kadar Tekrarla]
-    Loop --> Read ```
+    Loop --> Read
+ ```
 ## 🛠️ 4. Kurulum ve Çalıştırma Rehberi
 
 Hocamızın isteği üzerine, projenin her bilgisayarda hatasız çalışması için **Sanal Ortam (venv)** yapısı kullanılmıştır.
@@ -84,4 +85,5 @@ Ders       : Yazılım Modelleme ve Proje Yönetimi
 Proje Türü : Final Ödevi (Dönem Sonu Teslimi)
 
 Hazırlayan : [Adınız Soyadınız]
+
 
