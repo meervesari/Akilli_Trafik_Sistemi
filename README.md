@@ -60,7 +60,7 @@ Hocamızın isteği üzerine, projenin her bilgisayarda hatasız çalışması i
 5. **Çalıştırın:** `cd src` -> `python main.py`
 
 ##📁 5. Proje Dosya Yapısı
-
+```text
 Akilli_Trafik_Sistemi/
 ├── src/
 │   └── main.py              # Akıllı kontrol algoritması (Python)
@@ -75,6 +75,7 @@ Akilli_Trafik_Sistemi/
 ├── requirements.txt         # Gerekli Python kütüphaneleri
 └── README.md                # Proje sunumu ve kullanım kılavuzu
 ---
+```
 
 ## 👤 Proje Kimlik Bilgileri
 
@@ -85,5 +86,6 @@ Ders       : Yazılım Modelleme ve Proje Yönetimi
 Proje Türü : Final Ödevi (Dönem Sonu Teslimi)
 
 Hazırlayan : [Adınız Soyadınız]
+
 
 
