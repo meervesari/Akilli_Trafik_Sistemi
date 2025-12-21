@@ -77,15 +77,15 @@ Akilli_Trafik_Sistemi/
 ---
 ```
 
-## 👤 Proje Kimlik Bilgileri
+## 👤 Hazırlayanlar:
 
 ```yaml
-Üniversite : Mersin Üniversitesi
-Bölüm      : Bilişim Sistemleri ve Teknolojileri
-Ders       : Yazılım Modelleme ve Proje Yönetimi
-Proje Türü : Final Ödevi (Dönem Sonu Teslimi)
+-Atahan Öztürk 
+-Merve Sarı 
+-Muhammet Sefa Akay 
+-Güven Karataş 
+-Halil Emrah Kaya 
 
-Hazırlayan : [Adınız Soyadınız]
 
 
 
