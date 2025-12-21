@@ -32,7 +32,8 @@ graph TD
     C -->|Yoğunluk Karşılaştır| D[Dikey Aks]
     C -->|Yoğunluk Karşılaştır| E[Yatay Aks]
     D -->|Karar| F[Trafik Işığı Faz Değişimi]
-    E -->|Karar| F ```
+    E -->|Karar| F
+```
 ### 2. İş Akış Diyagramı (Flowchart)
 Sistemin karar verme algoritmasının görsel akışı:
 
@@ -83,3 +84,4 @@ Ders       : Yazılım Modelleme ve Proje Yönetimi
 Proje Türü : Final Ödevi (Dönem Sonu Teslimi)
 
 Hazırlayan : [Adınız Soyadınız]
+
