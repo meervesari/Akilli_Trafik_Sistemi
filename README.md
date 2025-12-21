@@ -1,6 +1,6 @@
 # 🚦 Akıllı Trafik Yönetim Sistemi (Yapay Zeka Destekli)
 
-Bu proje, **Mersin Üniversitesi Bilişim Sistemleri ve Teknolojileri** bölümü **Yazılım Modelleme ve Proje Yönetimi** dersi final projesi olarak geliştirilmiştir. Geleneksel sabit süreli trafik ışıklarını, gerçek zamanlı araç yoğunluğuna göre optimize eden bir **"Akıllı Karar Destek Sistemi"**dir.
+Bu proje Geleneksel sabit süreli trafik ışıklarını, gerçek zamanlı araç yoğunluğuna göre optimize eden bir **"Akıllı Karar Destek Sistemi"**dir.
 
 ---
 
@@ -12,7 +12,7 @@ Bu proje, **Mersin Üniversitesi Bilişim Sistemleri ve Teknolojileri** bölüm�
 ---
 
 ## 🖼️ Proje Görselleri (Ekran Görüntüleri)
-Hocanın sistemin çalıştığını görebilmesi için simülasyon görüntüleri:
+Sistemin çalıştığını gösteren simülasyon görüntüleri:
 
 | Simülasyon Görünümü 1 | Simülasyon Görünümü 2 |
 | :---: | :---: |
@@ -85,6 +85,7 @@ Akilli_Trafik_Sistemi/
 -Muhammet Sefa Akay 
 -Güven Karataş 
 -Halil Emrah Kaya 
+
 
 
 
