@@ -49,9 +49,9 @@ flowchart TD
     Loop --> Read
  ```
 ## 🛠️ 4. Kurulum ve Çalıştırma Rehberi
-#  📋 Ön Hazırlıklar
-     Bilgisayarınızda Python 3.10+ yüklü olmalıdır.
-    SUMO Simulator kurulu olmalı ve SUMO_HOME ortam değişkeni sisteminizde tanımlı olmalıdır.
+## 📋 Ön Hazırlıklar
+Bilgisayarınızda Python 3.10+ yüklü olmalıdır.
+SUMO Simulator kurulu olmalı ve SUMO_HOME ortam değişkeni sisteminizde tanımlı olmalıdır.
     
 **Adım Adım Kurulum:**
 
@@ -63,9 +63,9 @@ flowchart TD
 2. **Sanal Ortam Oluşturun:**
    ```bash
    python -m venv venv
-   ### Windows için:
+   # Windows için:
    .\venv\Scripts\activate
-   ### Mac/Linux için:
+   # Mac/Linux için:
    source venv/bin/activate
 
 3. **Gereksinimleri Yükleyin:**
@@ -112,6 +112,7 @@ Akilli_Trafik_Sistemi/
 -Muhammet Sefa Akay 
 -Güven Karataş 
 -Halil Emrah Kaya 
+
 
 
 
