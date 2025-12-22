@@ -49,19 +49,24 @@ flowchart TD
     Loop --> Read
  ```
 ## 🛠️ 4. Kurulum ve Çalıştırma Rehberi
+#  📋 Ön Hazırlıklar
+     Bilgisayarınızda Python 3.10+ yüklü olmalıdır.
+    SUMO Simulator kurulu olmalı ve SUMO_HOME ortam değişkeni sisteminizde tanımlı olmalıdır.
+    
+**Adım Adım Kurulum:**
 
 1. **Repoyu Klonlayın:**
    ```bash
    git clone https://github.com/KULLANICI_ADINIZ/AkilliTrafik.git
-cd AkilliTrafik
+   cd AkilliTrafik
    
 2. **Sanal Ortam Oluşturun:**
    ```bash
    python -m venv venv
-### Windows için:
-.\venv\Scripts\activate
-### Mac/Linux için:
-source venv/bin/activate
+   ### Windows için:
+   .\venv\Scripts\activate
+   ### Mac/Linux için:
+   source venv/bin/activate
 
 3. **Gereksinimleri Yükleyin:**
    ```bash
@@ -79,7 +84,7 @@ Simülasyonu başlatmak için:
     ```bash
 
     python main.py
-**NOT:Araç hareketlerini SUMO arayüzünde daha net görmek için üst menüdeki Delay (ms) ayarını 400 yapmanız önerilir.
+NOT:Araç hareketlerini SUMO arayüzünde daha net görmek için üst menüdeki Delay (ms) ayarını 400 yapmanız önerilir.
     
 ## 📁 5. Proje Dosya Yapısı
 ```text
@@ -107,6 +112,7 @@ Akilli_Trafik_Sistemi/
 -Muhammet Sefa Akay 
 -Güven Karataş 
 -Halil Emrah Kaya 
+
 
 
 
