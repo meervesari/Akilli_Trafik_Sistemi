@@ -60,7 +60,7 @@ Hocamızın isteği üzerine, projenin her bilgisayarda hatasız çalışması i
 4. **Kütüphaneleri Yükleyin:** `pip install -r requirements.txt`
 5. **Çalıştırın:** `cd src` -> `python main.py`
 
-##📁 5. Proje Dosya Yapısı
+## 📁 5. Proje Dosya Yapısı
 ```text
 Akilli_Trafik_Sistemi/
 ├── src/
@@ -86,6 +86,7 @@ Akilli_Trafik_Sistemi/
 -Muhammet Sefa Akay 
 -Güven Karataş 
 -Halil Emrah Kaya 
+
 
 
 
