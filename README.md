@@ -50,8 +50,6 @@ flowchart TD
  ```
 ## 🛠️ 4. Kurulum ve Çalıştırma Rehberi
 
-Hocamızın isteği üzerine, projenin her bilgisayarda hatasız çalışması için **Sanal Ortam (venv)** yapısı kullanılmıştır.
-
 **Adım Adım Kurulum:**
 
 1. **Repoyu Klonlayın:** `git clone [REPO_LINKI]`
@@ -86,6 +84,7 @@ Akilli_Trafik_Sistemi/
 -Muhammet Sefa Akay 
 -Güven Karataş 
 -Halil Emrah Kaya 
+
 
 
 
