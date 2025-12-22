@@ -50,14 +50,37 @@ flowchart TD
  ```
 ## 🛠️ 4. Kurulum ve Çalıştırma Rehberi
 
-**Adım Adım Kurulum:**
+1. **Repoyu Klonlayın:**
+   ```bash
+   git clone https://github.com/KULLANICI_ADINIZ/AkilliTrafik.git
+cd AkilliTrafik
+   
+2. **Sanal Ortam Oluşturun:**
+   ```bash
+   python -m venv venv
+### Windows için:
+.\venv\Scripts\activate
+### Mac/Linux için:
+source venv/bin/activate
 
-1. **Repoyu Klonlayın:** `git clone [REPO_LINKI]`
-2. **Sanal Ortam Oluşturun:** `python -m venv venv`
-3. **Aktif Edin:** `venv\Scripts\activate` (Windows)
-4. **Kütüphaneleri Yükleyin:** `pip install -r requirements.txt`
-5. **Çalıştırın:** `cd src` -> `python main.py`
+3. **Gereksinimleri Yükleyin:**
+   ```bash
+   pip install -r requirements.txt
 
+
+##  ▶ Kullanım
+Simülasyonu başlatmak için:
+
+1. **Kaynak kod klasörüne girin:**
+   ```bash
+    cd src
+
+2. **Dosyayı çalıştırın:**
+    ```bash
+
+    python main.py
+**NOT:Araç hareketlerini SUMO arayüzünde daha net görmek için üst menüdeki Delay (ms) ayarını 400 yapmanız önerilir.
+    
 ## 📁 5. Proje Dosya Yapısı
 ```text
 Akilli_Trafik_Sistemi/
@@ -84,6 +107,7 @@ Akilli_Trafik_Sistemi/
 -Muhammet Sefa Akay 
 -Güven Karataş 
 -Halil Emrah Kaya 
+
 
 
 
