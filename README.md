@@ -57,8 +57,8 @@ SUMO Simulator kurulu olmalı ve SUMO_HOME ortam değişkeni sisteminizde tanım
 
 1. **Repoyu Klonlayın:**
    ```bash
-   git clone https://github.com/KULLANICI_ADINIZ/AkilliTrafik.git
-   cd AkilliTrafik
+   git clone https://github.com/meervesari/Akilli_Trafik_Sistemi.git
+   cd Akilli_Trafik_Sistemi
    
 2. **Sanal Ortam Oluşturun:**
    ```bash
@@ -112,6 +112,7 @@ Akilli_Trafik_Sistemi/
 -Muhammet Sefa Akay 
 -Güven Karataş 
 -Halil Emrah Kaya 
+
 
 
 
